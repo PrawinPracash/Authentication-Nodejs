@@ -1,0 +1,41 @@
+<div class="row cont_reg">
+
+    <div class="col-md-4 m-auto shadow card text-center">
+
+        <h1 class="heading1"><i class="fa fa-user-plus iconn" aria-hidden="true"></i> Register</h1>
+
+        <hr class="line">
+
+
+
+
+        <form class="form_" action="/users/register" method="POST"> <%- include('partials/messages')%>
+                <div class="group">
+
+                    <label class="email_" for="name">Name</label><br>
+                    <input type="name" placeholder="Enter Name" class="take" name="name" id="name" class="form-control"
+                        value="<%= typeof name!='undefined' ? name: '' %>">
+                </div>
+                <div class="group">
+                    <label class="email_" for="email">Email</label><br>
+                    <input type="email" placeholder="Email address" class="take" name="email" id="email"
+                        value="<%= typeof email!='undefined' ? email:'' %>">
+                </div>
+                <div class="group">
+                    <label class="email_" for="password">Password</label><br>
+                    <input type="password" placeholder="Enter password" class="take" name="password" id="password"
+                        value="<%= typeof email!='undefined' ? password: '' %>">
+                </div>
+                <div class="group">
+                    <label class="email_" for="confirm_password">Retype Password</label><br>
+                    <input type="password" placeholder="Confirm Password" class="take" name="confirm_password"
+                        id="confirm_password" value="<%= typeof email!='undefined' ? confirm_password:'' %>">
+
+                </div>
+
+                <button type="submit" class="register_">Register</button>
+                <p class="go_back_foot">Alredy have account? <a class="go_back" href="/users/login">Log in</a></p>
+        </form>
+    </div>
+
+</div>

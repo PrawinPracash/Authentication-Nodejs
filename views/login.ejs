@@ -1,0 +1,22 @@
+<div class="row cont">
+
+    <div class="col-md-4 m-auto shadow card text-center">
+
+
+        <h1 class="heading">Login</h1>
+        <hr class="line">
+        <form class="form_" action="/users/login" method="POST">
+            <%- include('partials/messages')%>
+                <div class="group">
+                    <label class="email_" for="email">Email</label><br>
+                    <input type="text" placeholder="Email address" class="take" name="email" id="email">
+                </div>
+                <div>
+                    <label class="email_" for="password">Password</label><br>
+                    <input type="password" placeholder="Password" class="take" name="password" id="password">
+                </div>
+                <button type="submit" class="login_">Login</button>
+        </form>
+    </div>
+
+</div>

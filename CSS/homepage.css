@@ -1,0 +1,72 @@
+.cont {
+    margin-top: 11%;
+}
+
+.card {
+
+    background-color: #FF6347;
+
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    color: #FF6347;
+    font-size: 40px;
+
+
+}
+
+.line {
+    border-color: #FF6347;
+    font-weight: 10px;
+
+}
+
+.btn-cont {
+    width: 50%;
+    background-color: black;
+}
+
+.register_button {
+
+    color: white;
+    background-color:
+        #FF6347;
+
+    border-radius: 8px;
+    border-width: 0px;
+
+
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto';
+
+}
+
+.register_button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.login_button {
+    color: #FF6347;
+    background-color: white;
+
+    border: 3px solid red;
+    display: block;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 400;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-bottom: 25%;
+}
+
+.login_button:hover {
+    color: #FF6347;
+    text-decoration: none;
+}

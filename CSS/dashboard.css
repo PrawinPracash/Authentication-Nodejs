@@ -1,0 +1,32 @@
+.dashboard_heading {
+    margin-top: 7%;
+    color: #FF6347;
+
+}
+
+.dashboard_cont{
+    margin-top:8%;
+}
+
+.dash-cont {
+
+    margin-top: 5%;
+
+}
+
+.ele {
+    color: #FF6347;
+    margin-right: 3px;
+}
+
+.info {
+    color: #FF6347;
+    text-align: left;
+    margin-left: 20%;
+
+}
+
+.name_info{
+    font-weight: 800;
+}
+

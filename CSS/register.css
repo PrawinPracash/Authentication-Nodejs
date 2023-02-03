@@ -1,0 +1,86 @@
+.cont_reg {
+    margin-top: 2%;
+}
+
+.heading-cont {
+    margin-top: 5%;
+}
+
+.iconn {
+    font-size: 40px;
+    padding-top: 5px;
+    color: black;
+
+}
+
+.heading1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 15px;
+    color: #FF6347;
+    font-size: 40px;
+}
+
+.register_ {
+    margin-top: 10%;
+    width: 90%;
+    height: 40px;
+    color: #FF6347;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-width: 1px;
+    border-color: #FF6347;
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+.register_:hover {
+    color: white;
+    background-color: #FF6347;
+}
+
+
+input[class=take]:focus {
+    box-shadow: 0 0 5px #FF6347;
+    border: 1px solid #FF6347;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type=password]:focus {
+    box-shadow: 0 0 5px #FF6347;
+    border: 1px solid #FF6347;
+}
+
+.go_back_foot {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.go_back {
+    text-decoration: underline;
+    color: #FF6347;
+}
+
+.go_back:hover {
+    color: #FF6347
+}
+
+
+.alert_box {
+
+    text-align: center;
+    font-size: 12px;
+    padding: 6px;
+    background-color: blanchedalmond;
+    margin-bottom: 15px;
+    width: 90%;
+    font-weight: 600;
+
+
+}

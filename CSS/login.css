@@ -1,0 +1,58 @@
+.login_icon {
+
+    color: #FF6347;
+
+}
+
+.line {
+    margin-bottom: 10%;
+}
+
+.email_ {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.take {
+    height: 30px;
+    width: 90%;
+
+}
+
+.form_ {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.form_container {
+    margin-left: 0%;
+}
+
+.group {
+    margin-bottom: 5%;
+}
+
+.button_container {
+    text-align: center;
+}
+
+.login_ {
+    margin-top: 10%;
+    width: 90%;
+    height: 40px;
+    color: #FF6347;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-width: 1px;
+    border-color: #FF6347;
+    border-radius: 8px;
+    margin-bottom: 17%;
+    text-align: center;
+
+}
+
+.login_:hover {
+    color: white;
+    background-color: #FF6347;
+}

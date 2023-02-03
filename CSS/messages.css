@@ -1,0 +1,9 @@
+.success{
+    background-color: #98fb98;
+    color:black;
+    font-weight: 500;
+}
+
+.error{
+    color:tomato;
+}
